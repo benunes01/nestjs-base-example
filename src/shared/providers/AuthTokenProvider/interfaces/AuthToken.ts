@@ -1,5 +1,5 @@
 export interface IAuthToken {
-    token: string;
+    jwt: string;
     expiresIn: Date | string;
   }
 
